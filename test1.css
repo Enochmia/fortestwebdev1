@@ -1,0 +1,24 @@
+.container_1 {
+  height: 100vh;
+  width: 50%;
+  border: 1px solid #000000;
+  position: relativev;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.idblank {
+  position: relative;
+}
+
+.pwblank {
+  position: relative;
+}
+
+#inpid, #inppw {
+  outline: none;
+  border: 0;
+  background-color: white;
+}
