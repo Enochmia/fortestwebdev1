@@ -1,12 +1,15 @@
 .container_1 {
   height: 100vh;
   width: 50%;
-  border: 1px solid #000000;
+  /*border: 1px solid #000000;*/
   position: relativev;
   text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
+  border: 0;
+  background-color: white;
+  
 }
 
 .idblank {
@@ -17,8 +20,29 @@
   position: relative;
 }
 
-#inpid, #inppw {
+#inpbtn {
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  color: red;
+}
+/*
+#inpid, #inppw, #inpbtn {
   outline: none;
   border: 0;
   background-color: white;
+}*/
+.bg {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right:0;
+  background-image: url('https://cdn.discordapp.com/attachments/1165881376940249161/1187573665102057492/00040-1902443035.png?ex=65976129&is=6584ec29&hm=da1ae640c7343a69eb31cd32597185f78e05dd2d40c112505c73efbc46ae5b13&');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+body {
+  display: flex;
 }
