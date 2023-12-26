@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Before Login Page</title>
+  <meta charset="UTF-8">
+  <title>Before Login Page</title>
 </head>
 <body>
-
-    <p>This is Before Login page.</p>
-
+  <div class="text">
+    <p class="realtext">This is Before Login page.</p>
+  </div>
+  <video autoplay muted loop id="myVideo">
+    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4">
+  </video>
+  <div class="login_input">
+    <form class="real_login_input" methods="POST" action="login_check">
+      <label>ID : </label>
+      <input id="ID" name="ID" type="text">
+      <label>PW : </label>
+      <input id="PW" name="PW" type="text">
+    </form>
+  </div>
 </body>
 </html>
