@@ -1,3 +1,30 @@
+.myvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 body {
-  background-color: #fff;
+  margin: 0;
+}
+.text {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 10px;
+}
+.realtext {
+  margin: 10px;
+}
+.login_input {
+  position: fixed;
+  right: 0;
+  top: 0;
+  border: 1px solid #000;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.real_login_input {
+  border-line: ;
 }
