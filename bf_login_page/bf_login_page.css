@@ -26,5 +26,12 @@ body {
   color: #fff;
 }
 .real_login_input {
-  border-line: ;
+  margin: 5px;
+}
+.inputtable {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
 }
